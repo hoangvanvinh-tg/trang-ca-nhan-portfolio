@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoàng Văn Vinh | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="theme-toggle" class="theme-toggle" aria-label="Chuyển đổi chế độ sáng/tối" />
+    <div class="page">
+      <header class="site-header">
+        <div class="brand">
+          <span>HV</span>
+          <p>Designer Portfolio</p>
+        </div>
+        <label for="theme-toggle" class="theme-button" aria-label="Toggle dark mode">
+          <span class="icon-sun">☀️</span>
+          <span class="icon-moon">🌙</span>
+        </label>
+      </header>
+
+      <main>
+        <section class="hero section-hero">
+          <div class="hero-glow"></div>
+          <div class="hero-sparkle sparkle sparkle-1"></div>
+          <div class="hero-sparkle sparkle sparkle-2"></div>
+          <div class="hero-card">
+            <div class="hero-avatar" aria-hidden="true">
+              <span>V</span>
+            </div>
+            <div class="hero-copy">
+              <span class="eyebrow">Sinh viên thiết kế UI/UX</span>
+              <h1>Hoàng Văn Vinh</h1>
+              <p class="hero-text">
+                Là sinh viên trường GDU ngành CNNT - Đồ họa kỹ thuật số. Tôi đang phát triển kỹ năng thiết kế sản phẩm số và thực hiện dự án UI/UX độc đáo.
+              </p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="#contact">Hire Me</a>
+                <a class="button button-secondary" href="#projects">Portfolio</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section about">
+          <div class="section-header">
+            <span class="section-label">01</span>
+            <h2>About Me</h2>
+          </div>
+          <p>
+            Tôi là một sinh viên đam mê thiết kế trải nghiệm người dùng và sáng tạo sản phẩm kỹ thuật số. Tôi kết hợp tư duy thiết kế với yếu tố cảm xúc để tạo ra giao diện ấm áp, trực quan và chuyên nghiệp.
+          </p>
+        </section>
+
+        <section id="skills" class="section skills">
+          <div class="section-header">
+            <span class="section-label">02</span>
+            <h2>Skills</h2>
+          </div>
+          <div class="skill-grid">
+            <article class="skill-card">
+              <div class="skill-icon">F</div>
+              <h3>Figma</h3>
+              <p>Thiết kế giao diện và prototype mượt mà.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">P</div>
+              <h3>Photoshop</h3>
+              <p>Chỉnh sửa hình ảnh và đồ họa kỹ thuật số tinh tế.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">Ai</div>
+              <h3>Adobe Illustrator</h3>
+              <p>Tạo biểu tượng, minh họa và đồ họa vector chuyên nghiệp.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section projects">
+          <div class="section-header">
+            <span class="section-label">03</span>
+            <h2>Portfolio Gallery</h2>
+          </div>
+          <div class="project-grid">
+            <a class="project-card project-card-1" href="#project-preview-1">
+              <div class="project-tag">Thiết kế Bookmark</div>
+              <h3>Bookmark concept</h3>
+            </a>
+            <a class="project-card project-card-2" href="#project-preview-2">
+              <div class="project-tag">Thiết kế mô hình 3D</div>
+              <h3>3D model showcase</h3>
+            </a>
+            <a class="project-card project-card-3" href="#project-preview-3">
+              <div class="project-tag">Thiết kế Bookmark</div>
+              <h3>Graphic study</h3>
+            </a>
+          </div>
+        </section>
+
+        <div class="project-preview" id="project-preview-1">
+          <a class="preview-close" href="#projects" aria-label="Đóng xem trước">×</a>
+          <div class="preview-card">
+            <span class="preview-label">Thiết kế Bookmark</span>
+            <h3>Bookmark concept</h3>
+            <p>Một tác phẩm thiết kế tinh tế với màu cam và hiệu ứng ánh sáng để truyền cảm hứng.</p>
+            <div class="preview-image preview-image-1"></div>
+          </div>
+        </div>
+
+        <div class="project-preview" id="project-preview-2">
+          <a class="preview-close" href="#projects" aria-label="Đóng xem trước">×</a>
+          <div class="preview-card">
+            <span class="preview-label">Thiết kế mô hình 3D</span>
+            <h3>3D model showcase</h3>
+            <p>Không gian mô hình với ánh sáng ấm và bố cục hiện đại, phù hợp cho dự án kỹ thuật số.</p>
+            <div class="preview-image preview-image-2"></div>
+          </div>
+        </div>
+
+        <div class="project-preview" id="project-preview-3">
+          <a class="preview-close" href="#projects" aria-label="Đóng xem trước">×</a>
+          <div class="preview-card">
+            <span class="preview-label">Thiết kế Bookmark</span>
+            <h3>Graphic study</h3>
+            <p>Thiết kế tập trung vào kiểu chữ và hiệu ứng ánh sáng sáng tạo, phù hợp cho portfolio cá nhân.</p>
+            <div class="preview-image preview-image-3"></div>
+          </div>
+        </div>
+
+        <section id="hobbies" class="section hobbies">
+          <div class="section-header">
+            <span class="section-label">04</span>
+            <h2>Hobbies</h2>
+          </div>
+          <div class="hobby-grid">
+            <article class="hobby-card">
+              <div class="hobby-icon">♫</div>
+              <h3>Nghe nhạc</h3>
+            </article>
+            <article class="hobby-card">
+              <div class="hobby-icon">🎮</div>
+              <h3>Chơi game</h3>
+            </article>
+            <article class="hobby-card">
+              <div class="hobby-icon">🌿</div>
+              <h3>Đi dạo</h3>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact">
+          <div class="section-header">
+            <span class="section-label">05</span>
+            <h2>Contact</h2>
+          </div>
+          <div class="contact-card">
+            <div>
+              <p class="contact-title">Email liên hệ</p>
+              <a class="contact-link" href="mailto:hoangvanvinh8464@gmail.com">hoangvanvinh8464@gmail.com</a>
+            </div>
+            <a class="button button-primary contact-button" href="mailto:hoangvanvinh8464@gmail.com">Hire Me</a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
